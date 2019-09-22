@@ -1,0 +1,15 @@
+{
+  "name": "yarn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@wasc/tools": "^2.0.0-beta.2"
+  },
+  "scripts": {
+    "format": "wasc-tools format"
+  },
+  "installConfig": {
+    "pnp": true
+  }
+}
